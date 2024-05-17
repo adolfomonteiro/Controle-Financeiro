@@ -41,10 +41,10 @@ export const Container = styled.div`
    }
   `;
   export const Button = styled.button`
-  padding:5px 10px;
+  padding:8px 10px;
   border:none;
   border-radius:5px;
   cursor:pointer;
   color:white;
-  background-color:teal;
+  background-color:blueviolet;
  `;

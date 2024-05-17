@@ -8,10 +8,12 @@ export const Table = styled.table`
     border-radius:5px;
     max-width:1120px;
     margin:20px auto;
+    text-align:center;
 `;
 export const Thead = styled.thead``;
 export const Tbody = styled.tbody``;
-export const Tr = styled.tr``;
+export const Tr = styled.tr`
+    text-align:${(props)=> (props.alignCenter ? "center" : "start")}`;
 export const Th = styled.th`
     border-bottom:.inset;
     padding-bottom:5px;
